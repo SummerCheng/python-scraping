@@ -5,7 +5,7 @@ import pymysql
 
 conn = pymysql.connect(host='127.0.0.1', port=3306, user='root', passwd='root', db='mysql', charset='utf8')
 cur = conn.cursor()
-cur.execute("USE wikipedia")
+cur.execute("USE scraping")
 
 def getUrl(pageId):
     cur.execute("SELECT url FROM pages WHERE id = %s", (int(pageId)))

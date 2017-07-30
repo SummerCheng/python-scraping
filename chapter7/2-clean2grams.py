@@ -6,16 +6,16 @@ from collections import OrderedDict
 
 def cleanInput(input):
     input = re.sub('\n+', " ", input)
-    input = re.sub('\[[0-9]*\]', "", input)
+    input = re.sub('\[[0-9]*\]', "", input) #去掉形如[1],[2]
     input = re.sub(' +', " ", input)
     input = bytes(input, "UTF-8")
-    input = input.decode("ascii", "ignore")
+    input = input.decode("ascii", "ignore") #消除转义字符
     cleanInput = []
     input = input.split(' ')
     for item in input:
-        item = item.strip(string.punctuation)
+        item = item.strip(string.punctuation) #去标点符号
         if len(item) > 1 or (item.lower() == 'a' or item.lower() == 'i'):
-            cleanInput.append(item)
+            cleanInput.append(item)   #去除了a和i以外的单字母单词
     return cleanInput
 
 def getNgrams(input, n):

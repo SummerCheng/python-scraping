@@ -31,5 +31,5 @@ def getNgrams(input, n):
 
 content = str(urlopen("http://pythonscraping.com/files/inaugurationSpeech.txt").read(),'utf-8')
 ngrams = getNgrams(content, 2)
-sortedNGrams = sorted(ngrams.items(), key = operator.itemgetter(1), reverse=True)
+sortedNGrams = sorted(ngrams.items(), key=operator.itemgetter(1), reverse=True)
 print(sortedNGrams)

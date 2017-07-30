@@ -8,6 +8,7 @@ wordFile = BytesIO(wordFile)
 document = ZipFile(wordFile)
 xml_content = document.read('word/document.xml')
 
+xml_content="<w:t>love</w:t>".encode('utf-8')
 wordObj = BeautifulSoup(xml_content.decode('utf-8'))
 textStrings = wordObj.findAll("w:t")
 for textElem in textStrings:

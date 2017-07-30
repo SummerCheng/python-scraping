@@ -18,7 +18,8 @@ def readPDF(pdfFile):
     retstr.close()
     return content
 
-pdfFile = urlopen("http://pythonscraping.com/pages/warandpeace/chapter1.pdf")
+# pdfFile = urlopen("http://www.bartleby.com/ebook/adobe/3134.pdf ")
+pdfFile=open("C:\\Users\Lesley\Desktop\临床肿瘤学概论.pdf","rb")
 outputString = readPDF(pdfFile)
 print(outputString)
 pdfFile.close()

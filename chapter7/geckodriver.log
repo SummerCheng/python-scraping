@@ -1,0 +1,16 @@
+1501399606947	addons.webextension.wx-assistant@mozillaonline.com	WARN	Please specify whether you want browser_style or not in your browser_action options.
+console.debug: 
+  Listening for uninstall url...
+1501399755331	addons.xpi	WARN	Add-on wcapturex@deskperience.com is not correctly signed.
+1501399999328	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+1501399999360	addons.update-checker	WARN	Update manifest for wcapturex@deskperience.com did not contain an updates property
+1501399999391	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+1501399999506	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+1501399999632	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+1501399999707	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+1501399999949	addons.update-checker	WARN	Update manifest for followonsearch@mozilla.com did not contain an updates property
+1501400118611	addons.xpi	WARN	Add-on wcapturex@deskperience.com is not correctly signed.
+console.error: CustomizableUI: 
+  unable to normalize widget
+console.error: CustomizableUI: 
+  unable to normalize widget
